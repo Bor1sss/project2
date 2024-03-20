@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6effc;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    color: #46548a;
+}
+p,h2{
+    padding: 0px 20px 0px 20px;
+}
+img{
+    width: 300px;
+}
+.container{
+    display: flex;
+   
+}
+.row{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    width: 100%;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    background-color: white;
+}
+.Bitem{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    
+    background-color: white;
+}
+.Bitem img{
+    width: 450px;
+}
+h1{
+    font-size: 32px;
+    margin-bottom: 50px;
+    position: relative;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    width: 100px; 
+    height: 2px; 
+    background-color: red; 
+}

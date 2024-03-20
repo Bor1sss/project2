@@ -1,0 +1,12 @@
+<section>
+    <h1>Deals & Destinations</h1>
+    <div class="container">
+        <div class="row">
+            <div class="Bitem" *ngFor="let deals of deals">
+                <img [src]="deals.src" alt="{{ deals.title }}">
+                <h2>{{ deals.title }}</h2>
+                <p>{{ deals.text }}</p>
+            </div>
+        </div>
+    </div>
+</section>
